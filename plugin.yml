@@ -1,0 +1,9 @@
+name: RProdutos
+main: digo.rprodutos.Main
+version: 1.0b
+author: zDigoGames_
+commands:
+  produto:
+    description: Usado para adicionar ou remover produtos.
+  produtos: 
+    description: Usado para ver os seus produtos.

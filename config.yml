@@ -1,0 +1,51 @@
+mensagens:
+  sem-permissao: "&cApenas membros da equipe podem executar este comando."
+  comando-incorreto: "&cSintaxe incorreta, use\n  &c• /produto <adicionar|remover> <produto> <jogador>."
+  produto-incorreto: "&cO produto &7@produto &cnão foi encontrado."
+  produto-enviado: "&aVocê enviou o produto &7@produto &apara o jogador &7@jogador&a." 
+  produto-enviado-todos: "&aVocê enviou o produto &7@produto &apara todos os jogadores online."
+  produto-recebido: "&aEbaa! Parece que seu produto chegou, digite &7/produtos &apara coleta-lô."
+  produto-removido: "&aVocê removeu o produto &7@produto &ado jogador &7@jogador&a."
+  produto-salvo: "&eEste jogador está offline, portando o produto foi salvo e será entregue quando ele entrar."
+  produto-remover-erro: "&cO jogador &7@jogador &cnão possui o produto &7@produto &cpara ser removido."
+  jogador-entrou: "&aVocê tem um produto não resgatado no &7/produtos&a."
+  console-erro: "&cApenas jogadores podem executar este comando."
+
+config:
+  comando-permissao: "rprodutos.usar"
+  menu-nome: "&aSeus Produtos"
+
+produtos:
+  VipKing:
+    nome: "&cVipKing (30 Dias)"
+    lore:
+    - "&7Seu vip chegou! Agora você"
+    - "&7pode desfrutar dos melhores"
+    - "&7benefícios &6VIPs &7do servidor."
+    - ""
+    - "&aClique para ativar."
+    id: 342
+    data: 0
+    glow: true
+    titulo: "&c@jogador"
+    subtitulo: "Tornou-se &c[VipKing]"
+    comandos:
+    - darvip @jogador King 10d
+    - cash adicionar @jogador 10
+    jogadores: []
+  Pacote1:
+    nome: '&6Cash &8(1.000)'
+    lore:
+    - "&7Seu cash chegou! Agora você"
+    - "&7comprar diversas coisas no"
+    - "&7shop com seu cash."
+    - ""
+    - "&aClique para ativar."
+    id: 342
+    data: 0
+    glow: true
+    titulo: "&6@jogador"
+    subtitulo: "Ativou &61.000 de Cash"
+    comandos:
+    - cash adicionar @jogador 1000
+    jogadores: []
